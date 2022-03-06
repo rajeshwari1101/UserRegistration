@@ -16,6 +16,7 @@ namespace UserRegistration
             registration.FirstName();
             registration.LastName();
             registration.EmailId();
+            registration.MobileNumber();
             Console.ReadKey();
         }
 
