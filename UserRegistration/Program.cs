@@ -14,6 +14,7 @@ namespace UserRegistration
             //Creating object od class
             UserRegistration registration = new UserRegistration();
             registration.FirstName();
+            registration.LastName();
             Console.ReadKey();
         }
 
