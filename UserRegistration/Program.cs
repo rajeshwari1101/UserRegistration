@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserRegistration
+namespace User_Registration
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace UserRegistration
         {
             Console.WriteLine("==========Welcome To User Registration===========");
             //Creating object od class
-            UserRegistration registration = new UserRegistration();
+            Registration registration = new Registration();
             registration.FirstName();
             registration.LastName();
             registration.EmailId();

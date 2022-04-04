@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace UserRegistration
+namespace User_Registration
 {
-    internal class UserRegistration
+    public class Registration
     {
         //Creating method to check validation for first name
         public void FirstName()
@@ -72,11 +72,10 @@ namespace UserRegistration
         }
 
         //Creating method to check validation
-        public bool Validate(string info, string Pattern)
+        public static bool Validate(string info, string Pattern)
         {
             return Regex.IsMatch(info, Pattern);
         }
-
 
     }
 }
